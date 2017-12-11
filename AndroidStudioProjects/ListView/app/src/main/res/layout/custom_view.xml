@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sagarImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/sagarText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sagarImage"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/sagarImage"
+        android:layout_toRightOf="@+id/sagarImage"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+</RelativeLayout>
